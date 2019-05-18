@@ -5,5 +5,3 @@ install:
     - sudo apt-get update
     - pip install pipenv
     - pipenv install --dev
-script:
-    - scripts/build.sh
